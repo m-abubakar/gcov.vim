@@ -27,16 +27,16 @@ else
         highlight GCovLineCovered term=bold ctermfg=108 ctermbg=None guifg=#8ec07c guibg=None
     endif
     if !hlexists('GcovLineUncovered')
-        highlight GCovLineUncovered term=bold ctermfg=167 ctermbg=235 guifg=#fb4934 guibg=#282828
+        highlight GCovLineUncovered term=bold ctermfg=167 ctermbg=None guifg=#fb4934 guibg=None
     endif
     if !hlexists('GcovBranchCovered')
-        highlight GCovBranchCovered term=bold ctermfg=108 ctermbg=235 guifg=#8ec07c guibg=#282828
+        highlight GCovBranchCovered term=bold ctermfg=108 ctermbg=None guifg=#8ec07c guibg=None
     endif
     if !hlexists('GcovBranchPartlyCovered')
-        highlight GCovBranchPartlyCovered ctermfg=214 ctermbg=235 guifg=#fabd2f guibg=#282828
+        highlight GCovBranchPartlyCovered ctermfg=214 ctermbg=None guifg=#fabd2f guibg=None
     endif
     if !hlexists('GcovBranchUncovered')
-        highlight GCovBranchUncovered term=bold ctermfg=167 ctermbg=235 guifg=#fb4934 guibg=#282828
+        highlight GCovBranchUncovered term=bold ctermfg=167 ctermbg=None guifg=#fb4934 guibg=None
     endif
 endif
 
